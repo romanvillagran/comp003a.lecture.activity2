@@ -40,8 +40,11 @@ namespace comp003a.lecture.activity2
             bool isAdultStudent = isStudent && isAdult;// determine if the user is both a student and an adult
 
 
-            //step 3.3:
-
+            //step 3.3: 
+            Console.WriteLine($"\nHello, {username}!");
+            Console.WriteLine($"You are currently {userAge} years old. In 5 years, you will be {futureAge}.");
+            Console.WriteLine($"Are you 18 or older? {isAdult}");
+            Console.WriteLine($"Are you both a student and 18 or older? {isAdultStudent}");
 
         }
     }
