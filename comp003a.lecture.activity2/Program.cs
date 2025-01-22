@@ -31,7 +31,16 @@ namespace comp003a.lecture.activity2
             // Prompt the user to indicate if they are a student
             Console.Write(" Are you a student? (true/false)");
             isStudent = bool.Parse(Console.ReadLine());// convert and assign the user's input to isStudent
-            
+
+
+
+            // step 3.2: perform calculations
+            int futureAge = userAge + 5;// calculate the user's age in 5 years
+            bool isAdult = userAge >= 18;// determine is the user is 18 or older
+            bool isAdultStudent = isStudent && isAdult;// determine if the user is both a student and an adult
+
+
+            //step 3.3:
 
 
         }
